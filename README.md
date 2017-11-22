@@ -3,9 +3,9 @@
 
 ### 自接触移动端布局以来， 常见的几种自适应布局解决方案
 
-1.百分比布局
-2.百分比+弹性布局
-3.rem font size of the root element
+1. 百分比布局
+2. 百分比+弹性布局
+3. rem font size of the root element
 
 #### 各有千秋
 
@@ -13,8 +13,8 @@
 * flex布局：兼容性问题
 * rem： 需要自己手动计算数值
 #### what is the rem?
->p rem翻译过来就是font size of the root element. 它是通过js来根据当前的设备屏幕的宽度来改变font-size，页面元素就是根据html的font-size计算后> >p 的rem值来实现自适应缩放。
->p 其实并不是页面上所有的元素都必须使用rem，比如底部导航可以固定高度，宽度使用flex弹性布局。
+rem翻译过来就是font size of the root element. 它是通过js来根据当前的设备屏幕的宽度来改变font-size，页面元素就是根据html的font-size计算后> >p 的rem值来实现自适应缩放。
+其实并不是页面上所有的元素都必须使用rem，比如底部导航可以固定高度，宽度使用flex弹性布局。
 
 #### 偏爱rem
 * 引用简单，布局方便，计算不算太难😄
